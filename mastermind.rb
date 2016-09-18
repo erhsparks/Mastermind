@@ -297,7 +297,7 @@ end
 if __FILE__ == $PROGRAM_NAME
   game_name, game_class = "Mastermind", Game
 
-  require_relative '../../../../Lizzi_extras/game_wrapper.rb'
+  require_relative 'game_wrapper.rb'
   GameWrapper.new(game_name, game_class).run
 end
 ########################################################
